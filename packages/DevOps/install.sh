@@ -13,5 +13,3 @@ brew_install k3sup
 brew_install kafkacat         # kafka 消费者
 brew_install kubectx
 brew_install kubernetes-cli
-
-brew_cask_install docker

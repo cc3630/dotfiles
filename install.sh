@@ -9,7 +9,6 @@ set -e
 source $PWD/lib/echo.sh
 source $PWD/lib/append.sh
 source $PWD/lib/link.sh
-source $PWD/lib/mac_version.sh
 source $PWD/lib/brew.sh
 source $PWD/help.sh
 
@@ -90,7 +89,6 @@ fi
 brew_install git
 brew_install gh
 brew_install jq
-brew_install mas
 brew_install ruby
 brew_install wget
 
@@ -98,7 +96,6 @@ brew_cask_install cheatsheet
 brew_cask_install github
 brew_cask_install go2shell
 brew_cask_install google-chrome
-brew_cask_install mos
 brew_cask_install postman
 brew_cask_install secure-pipes
 brew_cask_install visual-studio-code
