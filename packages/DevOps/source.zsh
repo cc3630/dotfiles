@@ -4,6 +4,8 @@
 
 alias k=kubectl
 alias kc=kubecm
+alias ap=ansible-playbook
+alias sg=ansible-galaxy
 
 # kr namespace deployment
 function kr() {
