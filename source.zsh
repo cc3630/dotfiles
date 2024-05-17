@@ -32,3 +32,9 @@ do
     . "$package/source.zsh"
   fi
 done
+
+# GOPATH
+export PATH="/Users/cc-mac/go/bin:$PATH"
+
+# MACTEX
+export PATH="$PATH:/usr/local/texlive/2022/bin/universal-darwin"
